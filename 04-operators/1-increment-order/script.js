@@ -1,4 +1,5 @@
-/*  Votre code Javascript vient ici:
-      - Vous pourrez visualiser le résultat en ouvrant index.html dans votre navigateur.
-      - N'oubliez pas de sauvegarder pour afficher les changements.
-*/
+// on va avoir :
+// a = 2
+// b = 2
+// c = 2 prend directement la valeur 
+// d = 1  garde la valeur précédente de b
