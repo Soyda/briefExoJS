@@ -1,4 +1,3 @@
-/*  Votre code Javascript vient ici:
-      - Vous pourrez visualiser le résultat en ouvrant index.html dans votre navigateur.
-      - N'oubliez pas de sauvegarder pour afficher les changements.
-*/
+// le résultat sera :
+// a = 4 car a *= 2 équivaut a = a * 2 donc 2 * 2 = 4
+// x = 5
