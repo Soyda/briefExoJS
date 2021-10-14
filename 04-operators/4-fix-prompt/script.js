@@ -1,4 +1,13 @@
-/*  Votre code Javascript vient ici:
-      - Vous pourrez visualiser le résultat en ouvrant index.html dans votre navigateur.
-      - N'oubliez pas de sauvegarder pour afficher les changements.
-*/
+// cela ne fonctionne pas car les valeurs 
+// récupérées par le prompt sont des strings,
+// il faut les convertir en number avant d'effectuer
+// l'opération.
+// une solution est de rajouter devant la variable 
+// tel que +a ou +prompt().
+
+// Version corrigée:
+
+let a = +prompt("First number?", 1);
+let b = +prompt("Second number?", 2);
+
+alert(a + b); // donne 3
