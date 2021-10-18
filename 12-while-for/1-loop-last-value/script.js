@@ -1,4 +1,4 @@
-/*  Votre code Javascript vient ici:
-      - Vous pourrez visualiser le résultat en ouvrant index.html dans votre navigateur.
-      - N'oubliez pas de sauvegarder pour afficher les changements.
-*/
+// la dernière valeur affichée est 1 car quand i atteint 0 la boucle 
+// s'arrête avant de s'exécuter pour la valeur 0
+
+
