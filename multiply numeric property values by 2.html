@@ -1,0 +1,25 @@
+<html>
+    <script>
+        let menu = {
+            width: 200,
+            height: 300,
+            title: "My menu"
+        };
+
+        for (let key in menu) {
+            alert(key+": "+ menu[key]);
+        }
+
+        function multiplyNumeric(object) {
+            for (let key in object) {
+                if ( Number(object[key]) ) object[key] *= 2;
+            }
+        }
+
+        multiplyNumeric(menu);
+
+        for (let key in menu) {
+            alert(key+": "+ menu[key]);
+        }
+    </script>
+</html>

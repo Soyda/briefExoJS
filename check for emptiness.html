@@ -1,0 +1,32 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+
+            function isEmpty (object) {
+                return (+Object.keys(object).length === 0 ? true : false);
+            }
+    
+            let schedule = {};
+    
+            alert(isEmpty(schedule));
+            alert("Number of keys in the object: "+ Object.keys(schedule).length);
+    
+            schedule["8:30"] = "get up";
+    
+            alert(isEmpty(schedule));
+            alert(schedule["8:30"]);
+            alert("Number of keys in the object: "+ Object.keys(schedule).length);
+
+            // javascript.info solution
+            
+            //function isEmpty(obj) {
+            //  for (let key in obj) {
+            //    // if the loop has started, there is a property
+            //    return false;
+            //  }
+            //  return true;
+            //}
+        </script>
+    </body>
+</html>
